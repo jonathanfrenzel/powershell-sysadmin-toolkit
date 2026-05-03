@@ -1,0 +1,5 @@
+WinRM
+Spooler
+W32Time
+BITS
+EventLog

@@ -1,0 +1,6 @@
+ComputerName: SAMPLE-PC
+OS: Microsoft Windows 11
+UptimeDays: 3
+CPUUsagePercent: 12
+MemoryUsedPercent: 61
+Status: Sample output only
