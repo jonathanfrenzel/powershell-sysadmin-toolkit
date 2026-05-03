@@ -1,10 +1,10 @@
 # PowerShell Systems Administration Toolkit
 
-A practical PowerShell toolkit for Windows systems administration, troubleshooting, health checks, service validation, disk utilization reporting, website monitoring, failed logon review, inventory reporting, and repeatable IT support workflows.
+A practical PowerShell toolkit for Windows systems administration, troubleshooting, monitoring, reporting, and repeatable IT support workflows.
 
 ## Project Purpose
 
-This project demonstrates how PowerShell can be used to automate common systems administration tasks and standardize troubleshooting steps across Windows environments.
+This project demonstrates how PowerShell can be used to automate common systems administration tasks and standardize troubleshooting across Windows environments.
 
 The toolkit is designed for IT support, systems administration, cloud operations, and infrastructure troubleshooting scenarios.
 
@@ -25,6 +25,7 @@ Repeatable troubleshooting workflows
 
 | Script | Purpose |
 | --- | --- |
+| `Get-ADComputerHardwareInventory.ps1` | Queries Active Directory for enabled computers in a target OU and collects hardware inventory using CIM |
 | `Get-SystemHealth.ps1` | Generates a local system health report with OS, uptime, CPU, memory, and timestamp |
 | `Check-DiskSpace.ps1` | Checks local disk usage and flags drives below a free space threshold |
 | `Check-ServiceStatus.ps1` | Checks whether important Windows services are running |
@@ -38,6 +39,7 @@ Repeatable troubleshooting workflows
 ```text
 powershell-sysadmin-toolkit/
 ├── scripts/
+│   ├── Get-ADComputerHardwareInventory.ps1
 │   ├── Get-SystemHealth.ps1
 │   ├── Check-DiskSpace.ps1
 │   ├── Check-ServiceStatus.ps1
